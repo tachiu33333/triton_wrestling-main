@@ -1,0 +1,197 @@
+/* Body section - overall page style */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    /* Sets the default font for the whole page */
+ 
+ 
+    margin: 0;
+    /* Removes default spacing around the page edges */
+ 
+ 
+    background-color: #f5f2eb;
+    /* Soft earth tone background (light beige) */
+ 
+ 
+    color: #4e342e;
+    /* Dark brown text color for readability */
+ }
+ 
+ 
+ /* Navigation bar style */
+ nav {
+    display: flex;
+    /* Uses Flexbox to lay out items in a row */
+ 
+ 
+    justify-content: flex-end;
+    /* Aligns the nav links to the right */
+ 
+ 
+    padding: 1rem 2rem;
+    /* Adds padding inside the nav for spacing */
+ 
+ 
+    background-color: #d7ccc8;
+    /* Earth tone background (light brown/gray) */
+ }
+ 
+ 
+ /* Navigation link styles */
+ .nav-buttons a {
+    text-decoration: none;
+    /* Removes underline from links */
+ 
+ 
+    margin-left: 1rem;
+    /* Adds space between the links */
+ 
+ 
+    color: #6d4c41;
+    /* Dark brown link color */
+ 
+ 
+    font-weight: bold;
+    /* Makes link text bold for emphasis */
+ 
+ 
+    transition: color 0.32s ease;
+    /* Smooth transition effect when hovering over links */
+ }
+ 
+ 
+ /* Container for the introduction section */
+ .intro-container {
+    display: flex;
+    /* Arranges text and image side-by-side using Flexbox */
+ 
+ 
+    justify-content: center;
+    align-items: center;
+    /* Centers items both horizontally and vertically */
+ 
+ 
+    gap: 3rem;
+    /* Adds space between the image and text */
+ 
+ 
+    padding: 4rem 2rem;
+    /* Adds padding around the section */
+ 
+ 
+    flex-wrap: wrap;
+    /* Allows wrapping on smaller screens */
+ }
+ 
+ 
+ /* Text block in the intro section */
+ .intro-text {
+    max-width: 400px;
+    /* Limits the width of the text block to keep it readable */
+ }
+ 
+ 
+ /* Image block in the intro section */
+ .intro-image img {
+    width: 250px;
+    /* Sets a fixed width for the image */
+ 
+ 
+    border-radius: 12px;
+    /* Rounds the image corners for a softer look */
+ 
+ 
+    border: 3px solid #a1887f;
+    /* Earth-tone border for consistency with the theme */
+ }
+ 
+ 
+ /* DARK MODE STYLES */
+ 
+ 
+ /* Applies to entire page in dark mode */
+ body.dark-mode {
+    background-color: #3e2723;
+    /* Deep brown background for night-friendly theme */
+ 
+ 
+    color: #fbe9e7;
+    /* Light peach text for good contrast */
+ }
+ 
+ 
+ /* Dark mode navbar */
+ body.dark-mode nav {
+    background-color: #4e342e;
+    /* Dark brown nav background */
+ }
+ 
+ 
+ /* Dark mode link color */
+ body.dark-mode .nav-buttons a {
+    color: #ffccbc;
+    /* Peach-colored links for a warm contrast */
+ }
+ 
+ 
+ /* GENERAL BUTTON STYLES */
+ 
+ 
+ /* Stylized buttons (applies to any <button>) */
+ button {
+    background-color: #8d6e63; /* Soft brown background */
+    color: #fff3e0;            /* Light peach text */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+ }
+ 
+ 
+ /* Hover effect on button */
+ button:hover {
+    background-color: #795548; /* Slightly darker brown on hover */
+    transform: translateY(-2px); /* Slight "lift" effect */
+ }
+ 
+ 
+ /* Click/active effect */
+ button:active {
+    transform: translateY(1px); /* Slight "pressed-down" look */
+ }
+ 
+ 
+ /* THEME TOGGLE BUTTON */
+ 
+ 
+ /* Wrapper to center the theme button */
+ .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    /* Adds space below the button */
+ }
+ 
+ 
+ /* Specific styles for theme toggle button */
+ #theme-toggle {
+    padding: 0.75rem 1.5rem;
+    background-color: #6d4c41;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ 
+ 
+ /* Hover effect for theme toggle */
+ #theme-toggle:hover {
+    background-color: #5d4037;
+    /* Darker tone when hovered */
+ }
+ 
