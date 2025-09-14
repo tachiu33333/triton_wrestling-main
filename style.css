@@ -12,14 +12,11 @@ body {
     display: flex;
     /* Uses Flexbox to lay out items in a row */
  
- 
     justify-content: flex-end;
     /* Aligns the nav links to the right */
  
- 
     padding: 1rem 2rem;
     /* Adds padding inside the nav for spacing */
- 
  
     background-color: #0400fe;
     /* Earth tone background (light brown/gray) */
@@ -36,13 +33,10 @@ body {
     /* Adds space between the links */
  
  
-    color: #6d4c41;
-    /* Dark brown link color */
- 
+    color: #ffffff;
  
     font-weight: bold;
     /* Makes link text bold for emphasis */
- 
  
     transition: color 0.32s ease;
     /* Smooth transition effect when hovering over links */
