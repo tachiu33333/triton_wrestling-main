@@ -1,19 +1,9 @@
 /* Body section - overall page style */
 body {
     font-family: 'Segoe UI', sans-serif;
-    /* Sets the default font for the whole page */
- 
- 
     margin: 0;
-    /* Removes default spacing around the page edges */
- 
- 
     background-color: #ffffff;
-    /* Soft earth tone background (light beige) */
- 
- 
-    color: #4e342e;
-    /* Dark brown text color for readability */
+    color: #00000000;
  }
  
  
@@ -180,7 +170,7 @@ body {
  #theme-toggle {
     padding: 0.75rem 1.5rem;
     background-color: #6d4c41;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
